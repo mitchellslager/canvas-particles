@@ -55,4 +55,6 @@ body {
 	inset: 0;
 	overflow: hidden;
 	pointer-events: none;
+	/* Particles are drawn in white, so keep the backdrop dark in both color schemes */
+	background: #16171d;
 }
